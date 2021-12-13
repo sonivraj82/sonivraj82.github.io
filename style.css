@@ -91,7 +91,7 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
-     background:  rgb(25, 12, 41);
+     background:  #fff;
  }
 .slider {
   position: relative;
@@ -119,12 +119,12 @@ body {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    border: solid #fff 3px;
+    border: solid #181818 3px;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 5px;
 }
-.dots label:hover {background: #fff;}
+.dots label:hover {background: #181818;}
 #img1:checked ~ .m1 {
     margin-left: 0;
 }
