@@ -1,0 +1,71 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 15pt;
+    background-color: white;
+    font-weight: bold;
+}
+
+.orange {
+  background-color: orange;
+  height: 100%;
+  width: 55px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.orange2 {
+  background-color: orange;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.sign_in {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 17px;
+  left: 258px;
+}
+
+.cart {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 17px;
+  left: 305px;
+}
+
+.search {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 17px;
+  left: 215px;
+}
+
+.Account_settings {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 70px;
+  left: -1px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.electronics {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 130px;
+  left: -4px;
+  font-size: 12px;
+}
