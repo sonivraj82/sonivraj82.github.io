@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Log In Form</title>
+  <link rel="stylesheet" href="/login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700">
+
+</head>
+
+<body>
+  <form action="" class="form">
+    <h1 class="form__title">Login</h1>
+    <b><p class="form__description">Welcome Back!</p></b>
+
+    <div class="form__group">
+      <input type="email" id="email" class="form__input" placeholder=" " autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="abc@xyz.com" required>
+      <label for="email" class="form__label">Email</label>
+    </div>
+
+    <div class="form__group">
+      <input type="password" id="pwd" class="form__input" placeholder=" " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      <label for="pwd" class="form__label">Password</label>
+    </div>
+    <b><span>New ? <a href="/Sign_Up_Form.html">Sign Up</a></span></b>
+    <button onclick="/successful_login.html" class="form__button">Log In</button>
+  </form>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
