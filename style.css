@@ -105,6 +105,7 @@ body {
   position: absolute;
   top: 17px;
   left: 1175px;
+  cursor: pointer;
 }
 
 .sign_in {
@@ -113,6 +114,7 @@ body {
   position: absolute;
   top: 17px;
   left: 1258px;
+  cursor: pointer;
 }
 
 .cart {
@@ -121,12 +123,14 @@ body {
   position: absolute;
   top: 17px;
   left: 1305px;
+  cursor: pointer;
 }
 
 .search {
   background-color: transparent;
   border: none;
   position: absolute;
+  cursor: pointer;
 }
 
 .Account_settings {
@@ -135,6 +139,7 @@ body {
   position: absolute;
   top: 70px;
   left: -1px;
+  cursor: pointer;
 }
 
 .electronics {
@@ -144,6 +149,7 @@ body {
   top: 130px;
   left: -4px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 #iframeDisplay {
@@ -178,6 +184,7 @@ body {
 	-webkit-transition-duration: 0.4s;
 	-o-transition-duration: 0.4s;
 	color: black;
+  cursor: pointer;
 }
 
 .search-container {
@@ -188,6 +195,7 @@ body {
 	width: 50px;
 	vertical-align: bottom;
 	color: black;
+  cursor: pointer;
 }
 
 .mglass {
@@ -195,17 +203,19 @@ body {
 	display: inline-block;
 	pointer-events: none;
 	transform: rotate(-45deg);
+  cursor: pointer;
 }
 
 .searchbutton {
 	color: black;
 	position: absolute;
-  	top: -76px;
-  	left: 550px;
+  top: -76px;
+  left: 550px;
 	font-size: 41px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
+  cursor: pointer;
 }
 
 .search:focus + .searchbutton {
@@ -214,11 +224,12 @@ body {
 	-webkit-transition-duration: 0.4s;
 	-o-transition-duration: 0.4s;
 	color: orange;
+  cursor: pointer;
 }
 
 .search {
 	position: absolute;
-  	top: -76px;
+  top: -76px;
 	outline: none;
 	padding: 0;
 	width: 0;
@@ -228,15 +239,17 @@ body {
 	-moz-transition-duration: 0.4s;
 	-webkit-transition-duration: 0.4s;
 	-o-transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .search:focus {
 	width: 363px;
 	padding: 0 14px 0 0;
-  	position: absolute;
-  	top: -76px;
+  position: absolute;
+  top: -76px;
 	border: 2px solid black;
 	border-radius: 30px;
+  cursor: pointer
 }
 
 .expandright {
